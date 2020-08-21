@@ -48,7 +48,7 @@ public class ExchangeOffice {
                     }
                 });
                 myWriter.close();
-                System.out.println("Exchange completed. Successfully wrote to the file.");
+                System.out.println("DataBase with initial currencies was successfully created.");
 
             } else {
                 System.out.println("File \"" + database.getName() + "\" already exists.");
@@ -64,7 +64,7 @@ public class ExchangeOffice {
                     }
                 });
                 myWriter.close();
-                System.out.println("Successfully wrote to the file.");
+                System.out.println("File was successfully overwritten.");
 
             }
         } catch (IOException e) {
